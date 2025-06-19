@@ -1,0 +1,160 @@
+
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .section-five{
+        background-color: black;
+        color: white;
+        padding: 30px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .section-five__desc{
+        padding-top: 3px;
+    }
+    .section-one,.section-two,.section-three,.section-four{
+        display: inline-block;
+    
+           height: 200px;
+        width: 200px;
+        text-align: center;
+        
+        
+        
+        
+        
+
+    }
+    .section-one_img,.section-twoimg,.section-three_img{
+        height: 260px;
+        width: 180px;
+        padding-top: 10px;
+    }
+  .section-four__img{
+    height: 300px;
+    width: 180px;
+        padding-top: 10px;
+    
+   
+  }
+  .card{
+    display: flex;
+  justify-content: center; /* Horizontally center */
+  gap: 10px;               /* Space between cards */
+  flex-wrap: wrap;         /* Wrap on small screens */
+  padding: 20px;
+  background-color: antiquewhite;
+  }
+  .section-one{
+     border: 2px solid lemonchiffon;       /* Light grey border */
+  padding: 10px;
+  width: 200px;
+  height: 400px;
+  text-align: center;
+  border-radius: 10px;   
+   box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+   background-color: cadetblue; /* Light shadow */
+} 
+.section-two{
+       border: 2px solid lemonchiffon;       /* Light grey border */
+  padding: 10px;
+  width: 200px;
+  height: 400px;
+  text-align: center;
+  border-radius: 10px;   
+   box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+   background-color: olivedrab;
+} 
+.section-three{
+      border: 2px solid lemonchiffon;       /* Light grey border */
+  padding: 10px;
+  width: 200px;
+  height: 400px;
+  text-align: center;
+  border-radius: 10px;   
+   box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+   background-color: chocolate;
+
+}
+.section-four{
+       border: 2px solid lemonchiffon;       /* Light grey border */
+  padding: 10px;
+  width: 200px;
+  height: 400px;
+  text-align: center;
+  border-radius: 10px;   
+   box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+   background-color: cornflowerblue;
+}
+.section-six{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.section-six__desc{
+    background-color:orangered;
+    color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.section-six_name,.section-sixage,.section-six_email{
+    color: wheat;
+    padding: 10px;
+}
+.section-six__input{
+    padding: 5px;
+     border: none;
+    border-bottom: solid black 1px;
+}
+.section-six__table{
+    text-align: center;
+    padding-left: 500px;
+
+}
+.section-one__button{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 50px;
+   border: none;
+    border-radius: 5px;
+     box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+.section-one__title{
+    margin: 10px;
+}
+.section-two__title{
+      margin: 10px;
+
+}
+.section-three__title{
+    margin: 10px;
+
+
+}
+.section-four__title{
+     margin: 10px;
+
+}
+.section-four__button{
+    margin-top: 40px;
+     background-color: black;
+    color: white;
+    padding: 5px;
+    width: 50px;
+   border: none;
+    border-radius: 5px;
+}
+    
+
+     /* Rounded corners */
+
+
+
